@@ -1,0 +1,8 @@
+---
+# tasks file for rpi-kubernettes
+
+- hosts: k8smaster
+  become: yes
+
+  roles:
+      - docker-install

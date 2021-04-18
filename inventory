@@ -1,0 +1,10 @@
+[k8s-master]
+rpi-master
+
+[k8s-node]
+rpi-worker1
+rpi-worker2
+
+[k8s:children]
+k8s-master
+k8s-node
