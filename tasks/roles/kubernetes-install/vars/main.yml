@@ -1,0 +1,8 @@
+---
+# vars file for kubernetes-install
+k8s_dependencies:
+  - kubernetes-cni
+  - kubelet
+k8s_packages:
+  - kubeadm
+  - kubectl
